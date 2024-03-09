@@ -72,7 +72,7 @@ const ArticleComponent = () => {
           <CardContainer>
             {articles.slice(0, loadCount).map((article: any, index: any) => (
               <Card key={index}>
-                <img height={200} width="100%" alt={article.altText} src={article.articleImage} />
+                <img height={200} width="100%" alt="" src={article.articleImage} />
                 <div style={{ padding: '1rem' }}>
                   <p style={{ color: '#6643b5', fontWeight: 'bold' }}>
                     {article.articleTag.label}
