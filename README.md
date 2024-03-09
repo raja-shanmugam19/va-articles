@@ -19,11 +19,11 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Run below command to see the test coverage .\
+Launches the test runner in the interactive watch mode.\
 
 ### `npm run coverage`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test coverage to see the coverage result .\
 
 ### `npm run build`
 
